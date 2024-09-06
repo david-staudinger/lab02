@@ -1,5 +1,5 @@
 
-function newRectangle(width: number, height: number): Shape {
+function rectangle(width: number, height: number): Shape {
     return {
 
         computeArea: function (): number {
@@ -8,4 +8,4 @@ function newRectangle(width: number, height: number): Shape {
     }
 }
 
-export { newRectangle }
+export { rectangle }
